@@ -1,0 +1,260 @@
+# Query: favicon.ico
+# Including: ./portfolio
+# ContextLines: 1
+
+51 results - 51 files
+
+portfolio/themes/example/incl/header.twig:
+  16  
+  17:     <link rel="icon" href="{{ theme_url }}/../shared/img/favicon.png">
+  18      <link rel="stylesheet" href="{{ theme_url }}/../shared/css/font-awsome.min.css" type="text/css" />
+
+portfolio/vendor/mos/cimage/docs/api/classes/CAsciiArt.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/classes/CHttpGet.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/classes/CImage_RemoteDownloadTest.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/classes/CImage.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/classes/CRemoteImage.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/classes/CWhitelist.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/classes/CWhitelistTest.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/autoload.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/CAsciiArt.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/CHttpGet.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/CImage.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/CRemoteImage.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/CWhitelist.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/test.CImage_RemoteDownloadTest.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/test.config.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/test.CWhitelistTest.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.check_system.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.compare.compare-test.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.compare.compare.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.img_config.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.img_header.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.img.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.imgd.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.imgp.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.imgs.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.config.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.template.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue29.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue36_aro.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue36_rb-ra-45.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue36_rb-ra-90.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue36_rb-ra-180.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue36_rb-ra-270.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue38.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue40.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue49.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue52-cf.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue52-stretch.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue52.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue58.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_issue60.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_option-crop.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_option-no-upscale.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test_option-save-as.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/files/webroot.test.test.html:
+  72  
+  73:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  74      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/graphs/class.html:
+  49  
+  50:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  51      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/namespaces/default.html:
+  24      
+  25:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  26      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/reports/deprecated.html:
+  25      
+  26:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  27      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/reports/errors.html:
+  25      
+  26:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  27      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+
+portfolio/vendor/mos/cimage/docs/api/reports/markers.html:
+  25      
+  26:     <link rel="shortcut icon" href="../images/favicon.ico"/>
+  27      <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>

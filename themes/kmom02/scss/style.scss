@@ -7,74 +7,74 @@
 
 /* General Styles */
 * {
-    box-sizing: border-box;
-    border: 0 none;
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
-    background-color: $background-color; // imported variable
-    font-family: 'Lato', sans-serif;
-    line-height: 1.5rem;
-    color: $font-color; // Imported variable
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+  background-color: $background-color; // imported variable
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5rem;
+  color: $font-color; // Imported variable
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
 
 /* Lists */
 ol,
 ul {
-    padding-left: 1.5em;
+  padding-left: 1.5em;
 }
 
 /* Utility Classes */
 .hidden {
-    display: none !important;
+  display: none !important;
 }
 
 /* Layout */
 .main {
-    flex: 1 0 auto;
-    padding: 25px;
+  flex: 1 0 auto;
+  padding: 25px;
 }
 
 .header,
 .footer {
-    flex: 0 0 auto;
-    padding: 15px;
+  flex: 0 0 auto;
+  padding: 15px;
 }
 
 .header,
 .site-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: $header-bg-color; // Imported variable
+  display: flex;
+  justify-content: space-between;
+  background-color: $header-bg-color; // Imported variable
 
-    h1 {
-        color: $earthy-font;
-    }
+  h1 {
+    color: $earthy-font;
+  }
 
-    a,
-    p {
-        text-decoration: none;
-    }
+  a,
+  p {
+    text-decoration: none;
+  }
 }
 
 /* Title */
 .title {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 .logo {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 /* Typography */
@@ -84,9 +84,9 @@ h3,
 h4,
 h5,
 h6 {
-    margin-bottom: 0.6em;
-    font-weight: bold;
-    color: $earthy-font;
+  margin-bottom: 0.6em;
+  font-weight: bold;
+  color: $earthy-font;
 }
 
 p,
@@ -94,149 +94,144 @@ td,
 th,
 li,
 dd {
-    text-align: justify;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* Images */
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .header {
-    border-bottom: 1px solid #222;
+  border-bottom: 1px solid #222;
 
-    img {
-        width: 85px;
-    }
-
+  img {
+    width: 85px;
+  }
 }
 
 .main img {
-    margin: 25px auto;
-    display: flex;
-    width: 255px;
-    border-radius: 40%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 25px auto;
+  display: flex;
+  width: 255px;
+  border-radius: 40%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Footer */
 .footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    border-top: 1px solid #222;
-    background-color: $footer-bg-color; // Imported variable
+  border-top: 1px solid #222;
+  background-color: $footer-bg-color; // Imported variable
 
-    align-items: center;
-    flex-direction: column-reverse;
-    text-align: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  text-align: center;
 
+  .fa {
+    margin: 10px;
+    padding: 0 20px;
+  }
 
-    .fa {
-        margin: 10px 10px;
-        padding: 0 20px;
-    }
-
-    .fa:hover {
-        color: $earthy-font;
-        cursor: pointer;
-    }
+  .fa:hover {
+    color: $earthy-font;
+    cursor: pointer;
+  }
 }
 
 .footer a {
-    color: #222;
+  color: #222;
 }
 
 .footer .social {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-
 
 /* Navbar styling */
 
 .slide {
-    overflow-y: hidden !important;
-    transition: height 0.5s ease-in !important;
+  overflow-y: hidden !important;
+  transition: height 0.5s ease-in !important;
 }
 
 .nav ul {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em 0;
-    list-style: none;
-    font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+  list-style: none;
+  font-weight: 700;
 }
 
 .nav ul li {
-    padding: 0 1em;
+  padding: 0 1em;
 }
 
 .nav a,
 .nav-toggle {
-    color: #333;
+  color: #333;
 }
 
 .nav a {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 .nav-toggle {
-    display: none;
+  display: none;
 }
 
 .nav ul li:nth-child(odd) a {
-    color: #333 !important;
+  color: #333 !important;
 }
 
 .nav ul li:nth-child(even) a {
-    color: #ff6347 !important;
+  color: #ff6347 !important;
 }
 
 @media (max-width: 767px) {
-    .header {
-        flex-direction: column;
-    }
+  .header {
+    flex-direction: column;
+  }
 
-    .nav ul {
-        flex-direction: column;
-        padding-bottom: 1em;
-    }
+  .nav ul {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
 
-    .nav ul li {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .nav ul li a {
-        display: block;
-        padding: 0.5em 0;
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
 
-        border: 2px solid $earthy-font;
-        border-radius: 15px;
-        margin-bottom: 15px;
-        background-color: $background-color;
-        padding: 5px;
+    border: 2px solid $earthy-font;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: $background-color;
+    padding: 5px;
+  }
 
-    }
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
 
-    .js .nav-toggle {
-        display: block;
-        float: right;
-        width: 2em;
-        margin: 0.6667em 0;
-        font-size: 1.5rem;
-        line-height: 2em;
-        text-align: center;
-        cursor: pointer;
-
-        border: 2px solid $earthy-font;
-        border-radius: 15px;
-        margin-bottom: 15px;
-        background-color: $background-color;
-        padding: 5px;
-
-    }
+    border: 2px solid $earthy-font;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: $background-color;
+    padding: 5px;
+  }
 }

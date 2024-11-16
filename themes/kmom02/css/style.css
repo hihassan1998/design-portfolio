@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -342,10 +343,204 @@ pre code {
   line-height: 1.4;
 }
 
-body {
-  background-color: #F1F3C2;
+/* General Styles */
+* {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
 }
 
-* {
+body {
+  background-color: #FBF8EF;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5rem;
   color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Lists */
+ol,
+ul {
+  padding-left: 1.5em;
+}
+
+/* Utility Classes */
+.hidden {
+  display: none !important;
+}
+
+/* Layout */
+.main {
+  flex: 1 0 auto;
+  padding: 25px;
+  margin: 0 60px;
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+  padding: 15px;
+}
+
+.header,
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #C9E6F0;
+}
+.header h1,
+.site-header h1 {
+  color: #F96E2A;
+}
+.header a,
+.header p,
+.site-header a,
+.site-header p {
+  text-decoration: none;
+}
+
+/* Title */
+.title {
+  margin-left: 25px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.6em;
+  font-weight: bold;
+  color: #F96E2A;
+}
+
+p,
+td,
+th,
+li,
+dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+}
+
+.header img {
+  width: 85px;
+}
+
+.main img {
+  margin: 25px auto;
+  display: flex;
+  width: 255px;
+  border-radius: 40%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #222;
+  background-color: #78B3CE;
+}
+
+.footer a {
+  color: #222;
+}
+
+.footer .social {
+  font-size: 2rem;
+}
+
+/* Navbar styling */
+.slide {
+  overflow-y: hidden !important;
+  transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+  list-style: none;
+  font-weight: 700;
+}
+
+.nav ul li {
+  padding: 0 1em;
+}
+
+.nav a,
+.nav-toggle {
+  color: #333;
+}
+
+.nav a {
+  border-radius: 15px;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav ul li:nth-child(odd) a {
+  color: #333 !important;
+}
+
+.nav ul li:nth-child(even) a {
+  color: #ff6347 !important;
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+  }
+  .nav ul {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+    border: 2px solid #F96E2A;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: #FBF8EF;
+    padding: 5px;
+  }
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
 }

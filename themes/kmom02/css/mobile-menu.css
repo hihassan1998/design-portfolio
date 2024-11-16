@@ -22,6 +22,14 @@
     display: none;
 }
 
+.nav ul li:nth-child(odd) a {
+    color: #333 !important;
+}
+
+.nav ul li:nth-child(even) a {
+    color: #ff6347 !important;
+}
+
 @media (max-width: 767px) {
     .header {
         flex-direction: column;

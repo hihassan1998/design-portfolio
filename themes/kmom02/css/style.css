@@ -353,7 +353,7 @@ pre code {
 }
 
 body {
-  background-color: #FBF8EF;
+  background-color: #fbf8ef;
   font-family: "Lato", sans-serif;
   line-height: 1.5rem;
   color: #000;
@@ -382,7 +382,6 @@ ul {
 .main {
   flex: 1 0 auto;
   padding: 25px;
-  margin: 0 60px;
 }
 
 .header,
@@ -395,11 +394,11 @@ ul {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #C9E6F0;
+  background-color: #cedf9f;
 }
 .header h1,
 .site-header h1 {
-  color: #F96E2A;
+  color: #f96e2a;
 }
 .header a,
 .header p,
@@ -426,7 +425,7 @@ h5,
 h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: #F96E2A;
+  color: #f96e2a;
 }
 
 p,
@@ -444,6 +443,9 @@ img {
   max-width: 100%;
 }
 
+.header {
+  border-bottom: 1px solid #222;
+}
 .header img {
   width: 85px;
 }
@@ -461,7 +463,18 @@ img {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
-  background-color: #78B3CE;
+  background-color: #c9e6f0;
+  align-items: center;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.footer .fa {
+  margin: 10px 10px;
+  padding: 0 20px;
+}
+.footer .fa:hover {
+  color: #f96e2a;
+  cursor: pointer;
 }
 
 .footer a {
@@ -527,10 +540,10 @@ img {
   .nav ul li a {
     display: block;
     padding: 0.5em 0;
-    border: 2px solid #F96E2A;
+    border: 2px solid #f96e2a;
     border-radius: 15px;
     margin-bottom: 15px;
-    background-color: #FBF8EF;
+    background-color: #fbf8ef;
     padding: 5px;
   }
   .js .nav-toggle {
@@ -542,5 +555,10 @@ img {
     line-height: 2em;
     text-align: center;
     cursor: pointer;
+    border: 2px solid #f96e2a;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: #fbf8ef;
+    padding: 5px;
   }
 }

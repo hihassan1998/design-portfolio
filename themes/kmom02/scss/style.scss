@@ -11,12 +11,12 @@
     border: 0 none;
     margin: 0;
     padding: 0;
-    font-family: 'Lato' ,sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 body {
     background-color: $background-color; // imported variable
-    font-family: 'Lato' ,sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height: 1.5rem;
     color: $font-color; // Imported variable
     display: flex;
@@ -44,7 +44,6 @@ ul {
 .main {
     flex: 1 0 auto;
     padding: 25px;
-    margin: 0 60px;
 }
 
 .header,
@@ -105,8 +104,13 @@ img {
     max-width: 100%;
 }
 
-.header img {
-    width: 85px;
+.header {
+    border-bottom: 1px solid #222;
+
+    img {
+        width: 85px;
+    }
+
 }
 
 .main img {
@@ -121,8 +125,24 @@ img {
 .footer {
     display: flex;
     justify-content: space-between;
+
     border-top: 1px solid #222;
     background-color: $footer-bg-color; // Imported variable
+
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+
+
+    .fa {
+        margin: 10px 10px;
+        padding: 0 20px;
+    }
+
+    .fa:hover {
+        color: $earthy-font;
+        cursor: pointer;
+    }
 }
 
 .footer a {
@@ -212,6 +232,11 @@ img {
         text-align: center;
         cursor: pointer;
 
+        border: 2px solid $earthy-font;
+        border-radius: 15px;
+        margin-bottom: 15px;
+        background-color: $background-color;
+        padding: 5px;
 
     }
 }

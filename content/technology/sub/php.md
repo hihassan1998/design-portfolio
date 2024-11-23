@@ -14,3 +14,5 @@ for ($i = 1; $i <= 100; $i++) {
     }
 }
 ```
+Get back to<a href="%base_url%?technology"> Technologies</a>
+

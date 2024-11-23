@@ -1,4 +1,9 @@
-# CSS
+---
+Title: Css Page
+
+---
+
+## CSS
 
 Cascading Style Sheets är språk för att beskriva utseende av element i ett markup language till exempel HTML. CSS är en av tre teknologier som utgör fundamentet för webben.
 
@@ -11,3 +16,6 @@ p {
     color: blue;
 }
 ```
+
+Get back to<a href="%base_url%?technology"> Technologies</a>
+

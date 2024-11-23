@@ -11,3 +11,4 @@ for number in range(1, 100 + 1):
     if not number % 2:
         print(number)
 ```
+Get back to<a href="%base_url%?technology"> Technologies</a>

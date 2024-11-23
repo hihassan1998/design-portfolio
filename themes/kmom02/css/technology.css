@@ -1,4 +1,4 @@
-/* .landingpage {
+.landingpage {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-flow: row;
@@ -22,7 +22,7 @@
     padding: 15px;
     border: 5px solid black;
     text-align: start;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.);
     font-size: 2rem;
     font-weight: 600;
     height: 150px;
@@ -75,19 +75,3 @@
     grid-column: span 3;
     grid-row: 8;
 }
-
-/* .read-more {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 5px 10px;
-    color: white;
-    background-color: #007bff;
-    text-decoration: none;
-    font-size: 0.9rem;
-    border-radius: 3px;
-
-    
-}
-.read-more:hover {
-        background-color: #0056b3;
-    } */

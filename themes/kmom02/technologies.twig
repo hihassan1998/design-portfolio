@@ -1,35 +1,38 @@
 {% include 'incl/header.twig' %}
+<link rel="stylesheet" href="{{ theme_url }}/css/technology.css">
 
-    <link rel="stylesheet" href="themes/kmom02/css/technology.css">
 <body>
     {% include 'incl/nav.twig' %}
+
     <div class="main" role="main">
-        <h1>Vår egen layout från technologies.twig</h1>
+        <h1>{{ meta.title }}</h1>
         <div class="landingpage">
             {{ content }}
         </div>
     </div>
 
-    {# <div class="main" role="main">
-        <h1 class="page-title">Vår egen layout från technologies.twig</h1>
-        <div class="layout-container">
-            <aside class="sidebar">
-                <nav>
+    <div class="container">
+
+        {% if current_page.id starts with 'technology/sub/' %}
+            {% set technology_pages = pages('technology/sub') %}
+            {% if technology_pages %}
+                <aside class="sidebar">
                     <ul>
-                        <li><a href="../technologies/html.md">HTML</a></li>
-                        <li><a href="/technology/css">CSS</a></li>
-                        <li><a href="/technology/javascript">JavaScript</a></li>
-                        <li><a href="/technology/php">PHP</a></li>
+                        {% for page in technology_pages if not page.hidden %}
+                            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                        {% endfor %}
                     </ul>
-                </nav>
-            </aside>
-            <div class="content">
-                <div class="container">
-                    {{ content }}
-                </div>
-            </div>
-        </div>
-    </div> #}
+                </aside>
+            {% endif %}
+        {% endif %}
+
+        <!-- Content Section for sub pages-->
+        {% if current_page.id starts with 'technology/sub/' %}
+            <section class="content">
+                {{ content }}  <!-- This will render content for the sub-pages like technology/sub/css.md -->
+            </section>
+        {% endif %}
+    </div>
 
     {% include 'incl/footer.twig' %}
 </body>

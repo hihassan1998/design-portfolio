@@ -429,6 +429,7 @@ body {
   color: #000;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100%;
 }
 
@@ -616,6 +617,10 @@ img {
     background-color: #fbf8ef;
     padding: 5px;
   }
+  .nav ul li.active {
+    border: none;
+    background-color: inherit;
+  }
   .js .nav-toggle {
     display: block;
     float: right;
@@ -631,4 +636,10 @@ img {
     background-color: #fbf8ef;
     padding: 5px;
   }
+}
+.active {
+  border: 2px dotted #f96e2a;
+  background-color: #fbf8ef;
+  padding: 5px;
+  border-radius: 5px;
 }

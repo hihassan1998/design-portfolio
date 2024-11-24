@@ -1,4 +1,8 @@
-# Git
+---
+Title: Git
+Template: technologies
+---
+
 
 Git är ett distribuerat versionshanteringssystem som skapades 2005 av Linus Torvalds. Git skapades för att hantera ändringar för Linux-kärnan.
 

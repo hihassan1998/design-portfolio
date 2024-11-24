@@ -27,6 +27,7 @@
     font-weight: 600;
     height: 150px;
 }
+
 .box:nth-child(3n+1) {
     background-color: #A1D6B2;
 }
@@ -74,4 +75,81 @@
 .box.wide {
     grid-column: span 3;
     grid-row: 8;
+}
+
+
+/* technology/sub/pages.md Layout */
+
+.subpage-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: column;
+    border: 1px dotted orangered;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Content for Sub-Pages */
+.subpage-content {
+    grid-column: 2 / span 2;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar for Sub-Pages */
+.subpage-sidebar {
+    max-width: 250px;
+    background: #a6d7eb;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.subpage-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subpage-sidebar li {
+    margin-bottom: 10px;
+}
+
+.subpage-sidebar li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .subpage-layout {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-flow: column;
+        border: 1px dotted orangered;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .subpage-sidebar {
+        grid-row: 1;
+        grid-column: span 2;
+        background: #a6d7eb;
+        padding: 15px;
+        border-radius: 8px;
+    max-width:none;
+
+    }
+
+    .subpage-content {
+        grid-column: span 2;
+        grid-row: 2;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    }
 }

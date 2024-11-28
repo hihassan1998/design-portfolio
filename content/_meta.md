@@ -11,4 +11,10 @@ Social:
   - title: Facebook Profil
     url: https://www.https://www.facebook.com/hassan.idr1/
     icon: facebook
+  - title: Dark Mode
+    url: ?action=theme
+    icon: gear
+  - title: Destroy Session
+    url: ?action=session_destroy
+    icon: gear
 ---

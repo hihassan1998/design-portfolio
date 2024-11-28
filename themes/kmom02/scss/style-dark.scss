@@ -1,6 +1,6 @@
 // Import dependencies and SCSS modules
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables-dark';
 @import 'blockquotes';
 @import 'code';
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
@@ -14,13 +14,14 @@
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
+  color: $font-color-d;
 }
 
 body {
-  background-color: $background-color; // imported variable
+  background-color: $background-color-d; // imported variable
   font-family: 'Lato', sans-serif;
   line-height: 1.5rem;
-  color: $font-color; // Imported variable
+  color: $font-color-d; // Imported variable
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -47,6 +48,7 @@ ul {
 .main {
   flex: 1 0 auto;
   padding: 25px;
+  // background-color: yellow;
 }
 
 .header,
@@ -59,10 +61,10 @@ ul {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: $header-bg-color; // Imported variable
+  background-color: $header-bg-color-d; // Imported variable
 
   h1 {
-    color: $earthy-font;
+    color: $earthy-font-d;
   }
 
   a,
@@ -70,7 +72,9 @@ ul {
     text-decoration: none;
   }
 }
-
+a{
+  color: $dark-green-d;
+}
 /* Title */
 .title {
   margin-left: 25px;
@@ -89,7 +93,7 @@ h5,
 h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: $earthy-font;
+  color: $earthy-font-d;
 }
 
 p,
@@ -129,7 +133,7 @@ img {
   justify-content: space-between;
 
   border-top: 1px solid #222;
-  background-color: $footer-bg-color; // Imported variable
+  background-color: $footer-bg-color-d; // Imported variable
 
   align-items: center;
   flex-direction: column-reverse;
@@ -141,13 +145,13 @@ img {
   }
 
   .fa:hover {
-    color: $earthy-font;
+    color: $earthy-font-d;
     cursor: pointer;
   }
 }
 
 .footer a {
-  color: #222;
+  color: white;
 }
 
 .footer .social {
@@ -175,7 +179,7 @@ img {
 
 .nav a,
 .nav-toggle {
-  color: #333;
+  color: #87b036;
 }
 
 .nav a {
@@ -187,7 +191,7 @@ img {
 }
 
 .nav ul li:nth-child(odd) a {
-  color: #333 !important;
+  color: #33c1c9 !important;
 }
 
 .nav ul li:nth-child(even) a {
@@ -214,10 +218,10 @@ img {
     display: block;
     padding: 0.5em 0;
 
-    border: 2px solid $earthy-font;
+    border: 2px solid $earthy-font-d;
     border-radius: 15px;
     margin-bottom: 15px;
-    background-color: $background-color;
+    background-color: $background-color-d;
     padding: 5px;
   }
 
@@ -239,14 +243,30 @@ img {
     border: 2px solid $earthy-font;
     border-radius: 15px;
     margin-bottom: 15px;
-    background-color: $background-color;
+    background-color: $background-color-d;
     padding: 5px;
   }
 }
 
 .active {
   border: 2px dotted $earthy-font;
-  background-color: $background-color;
+  background-color: $background-color-d;
   padding: 5px;
   border-radius: 5px;
+}
+code {
+  margin: 0 0.1em;
+  padding: 0.1em 0.2em;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  background: #474747;
+  font-family: monospace;
+  font-size: 0.85rem;
+  line-height: 1.9824;
+}
+pre {
+  padding: 0 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  background: #474747;
 }

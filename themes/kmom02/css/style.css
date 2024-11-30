@@ -348,7 +348,7 @@ pre code {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: row;
-  border: 1px dotted #F96E2A;
+  border: 1px dotted #f96e2a;
   gap: 20px;
   padding: 20px;
 }
@@ -514,7 +514,7 @@ pre code {
   font-size: 2rem;
   font-weight: 600;
   height: 150px;
-  color: #E0E0E0;
+  color: #000;
 }
 .box-a:nth-child(3n+1) {
   background-color: #00796B;
@@ -523,7 +523,7 @@ pre code {
   background-color: #333333;
 }
 .box-a:nth-child(3n) {
-  background-color: #F96E2A;
+  background-color: #f96e2a;
 }
 .box-a-1a {
   grid-column: span 3;
@@ -590,7 +590,7 @@ pre code {
     justify-items: center;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-flow: column;
-    border: 1px dotted #F96E2A;
+    border: 1px dotted #f96e2a;
     gap: 20px;
     padding: 20px;
   }
@@ -693,6 +693,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.6em;
+  margin-top: 0.6em;
   font-weight: bold;
   color: #f96e2a;
 }

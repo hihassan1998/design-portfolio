@@ -1,6 +1,7 @@
 // Import dependencies and SCSS modules
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables-dark';
+@import 'variables';
 @import 'blockquotes';
 @import 'code';
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
@@ -92,6 +93,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.6em;
+  margin-top: 0.6em;
   font-weight: bold;
   color: $earthy-font-d;
 }
@@ -270,3 +272,8 @@ pre {
   border-radius: 0.3em;
   background: #474747;
 }
+// dark-theame colored classes higher in hierarchy from analyisis.scss starts here
+.box-a {
+  color:$font-color
+}
+// dark-theame colored classes higher in hierarchy from analyisis.scss ends here

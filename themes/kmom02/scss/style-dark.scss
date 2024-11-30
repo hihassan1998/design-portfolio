@@ -277,3 +277,15 @@ pre {
   color:$font-color
 }
 // dark-theame colored classes higher in hierarchy from analyisis.scss ends here
+
+article {
+  p{
+    color: $font-color;
+  }
+}
+
+aside{
+  li:active{
+    background-color: $font-color-d;
+  }
+}

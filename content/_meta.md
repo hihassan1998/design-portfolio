@@ -4,17 +4,17 @@ Tagline: Hassans portfolio.
 Social:
   - title: Github repo.
     url: https://github.com/hihassan1998/design-portfolio.git
-    icon: github
+    icon: fab fa github
   - title: LinkedIn Profil
     url: https://www.linkedin.com/in/hassan-hussain-3b840429a/
     icon: linkedin
   - title: Facebook Profil
     url: https://www.https://www.facebook.com/hassan.idr1/
     icon: facebook
-  - title: Dark Mode
+  - title: Dark Mode 
     url: ?action=theme
-    icon: gear
+    icon: moon-o
   - title: Destroy Session
     url: ?action=session_destroy
-    icon: gear
+    icon: trash-o
 ---

@@ -869,3 +869,11 @@ pre {
 .box-a {
   color: #000;
 }
+
+article p {
+  color: #000;
+}
+
+aside li:active {
+  background-color: #e0e0e0;
+}

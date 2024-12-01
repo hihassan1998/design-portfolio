@@ -377,7 +377,7 @@ pre code {
   color: #000;
 }
 .box p {
-  color: black;
+  color: #000;
 }
 .box:nth-child(3n+1) {
   background-color: #a1d6b2;
@@ -517,10 +517,10 @@ pre code {
   color: #000;
 }
 .box-a:nth-child(3n+1) {
-  background-color: #00796B;
+  background-color: #00796b;
 }
 .box-a:nth-child(3n+2) {
-  background-color: #333333;
+  background-color: #333;
 }
 .box-a:nth-child(3n) {
   background-color: #f96e2a;
@@ -678,7 +678,7 @@ ul {
 }
 
 a {
-  color: #00796B;
+  color: #00796b;
 }
 
 /* Title */
@@ -730,7 +730,7 @@ img {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
-  background-color: #333333;
+  background-color: #333;
   align-items: center;
   flex-direction: column-reverse;
   text-align: center;
@@ -745,7 +745,7 @@ img {
 }
 
 .footer a {
-  color: white;
+  color: #fff;
 }
 
 .footer .social {

@@ -8,7 +8,8 @@ Home page
 
 Jag heter Hassan Hussain, har en stark passion för att lära mig att programmera så bra som möjligt. Jag har nyligen börjat studera PA1439-Webbteknologier på Blekinge Tekniska Högskola<br><br>
 
-![Profile Picture](assets/img/hassanicon.png)
+![Profile Picture](assets/img/hassanicon.png){.hero}
+
 
 Jag är en självlärd programmerare med några certiferingar i fickan och utvecklat ett stort intresse för webbutveckling och molnlösningar. Under resa har jag lärt mig både JavaScript och Python, och önskar fördjuppa mina kunskaper ytterligare genom attt studera Webbprogrammering på BTH. Dedikerad problemlösare med ett samarbetstänkande som alltid håller mig uppdaterad med de senaste branschtrenderna.<br><br>
 

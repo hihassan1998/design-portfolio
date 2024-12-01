@@ -720,14 +720,6 @@ img {
   width: 85px;
 }
 
-.main img {
-  margin: 25px auto;
-  display: flex;
-  width: 255px;
-  border-radius: 40%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
 /* Footer */
 .footer {
   display: flex;
@@ -841,4 +833,26 @@ img {
   background-color: #fbf8ef;
   padding: 5px;
   border-radius: 5px;
+}
+
+/* images stylings based on pages*/
+.hero {
+  margin: 25px auto;
+  display: flex;
+  width: 255px;
+  border-radius: 40%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.snapshots {
+  display: flex;
+  width: auto;
+  height: 350px;
+  margin: 5px auto;
+  border-radius: 15px;
+}
+@media (max-width: 767px) {
+  .snapshots .snapshots {
+    height: 150px;
+  }
 }

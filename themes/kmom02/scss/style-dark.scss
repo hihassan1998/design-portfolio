@@ -73,9 +73,11 @@ ul {
     text-decoration: none;
   }
 }
-a{
+
+a {
   color: $dark-green-d;
 }
+
 /* Title */
 .title {
   margin-left: 25px;
@@ -121,13 +123,13 @@ img {
   }
 }
 
-.main img {
-  margin: 25px auto;
-  display: flex;
-  width: 255px;
-  border-radius: 40%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
+// .main img {
+//   margin: 25px auto;
+//   display: flex;
+//   width: 255px;
+//   border-radius: 40%;
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+// }
 
 /* Footer */
 .footer {
@@ -256,6 +258,7 @@ img {
   padding: 5px;
   border-radius: 5px;
 }
+
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
@@ -266,26 +269,57 @@ code {
   font-size: 0.85rem;
   line-height: 1.9824;
 }
+
 pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
   background: #474747;
 }
+
+
+/* images stylings based on pages*/
+.hero {
+  margin: 25px auto;
+  display: flex;
+  width: 255px;
+  border-radius: 40%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.snapshots {
+  display: flex;
+  width: auto;
+  height: 350px;
+  margin: 5px auto;
+  border-radius: 15px;
+
+
+
+  @media (max-width: 767px) {
+    .snapshots {
+      width: auto;
+      height: 150px;
+    }
+  }
+}
+
+
 // dark-theame colored classes higher in hierarchy from analyisis.scss starts here
 .box-a {
-  color:$font-color
+  color: $font-color
 }
+
 // dark-theame colored classes higher in hierarchy from analyisis.scss ends here
 
 article {
-  p{
+  p {
     color: $font-color;
   }
 }
 
-aside{
-  li:active{
+aside {
+  li:active {
     background-color: $font-color-d;
   }
 }

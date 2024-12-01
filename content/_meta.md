@@ -4,7 +4,7 @@ Tagline: Hassans portfolio.
 Social:
   - title: Github repo.
     url: https://github.com/hihassan1998/design-portfolio.git
-    icon: fab fa github
+    icon: github
   - title: LinkedIn Profil
     url: https://www.linkedin.com/in/hassan-hussain-3b840429a/
     icon: linkedin

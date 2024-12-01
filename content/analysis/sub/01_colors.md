@@ -9,8 +9,6 @@ Uppgiften handlar om att analysera färgpaletter på tre svenska myndighetswebbp
 
 ## Urval
 
-Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval.
-
 I denna analyserings process har jag valt följande webbsidor:
 
 1. [Migrationsverket.se](https://www.migrationsverket.se/) - Migrationsverkets officiella hemsida.
@@ -18,28 +16,24 @@ I denna analyserings process har jag valt följande webbsidor:
 3. [Polisen.se](https://polisen.se/) - Polismyndighetens officiella hemsida.
    Dessa webbplatser tillhör är Nationella myndigheters webbplatser och kan klassas i kategorin: Webbsidor till Statliga och offentliga tjänster i Sverige.
 
-## Metod och processn
+## Metod
 
-Berätta kort om din "metod", hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg.
+I denna studie använde jag Windows Snipping Tool för att fånga färgelement och Adobe Color för att extrahera färger. På så sätt kunde jag enkelt identifiera och analysera färgpaletterna på varje webbplats. Denna metod är snabb, noggrann och ger en visuell representation av hur färg används strategiskt för att förstärka budskapet och förbättra användarupplevelsen.
+<br>
+<br>
+Verktyg:
 
-1. Windows Snipping Tool:
-
-2. Adobe Colors:
+1. Windows Snipping Tool
+2. Adobe Colors
 
 ## Resultat
 
-Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
+### Migrationsverket.se
 
-#### Migrationsverket.se
 ![Image Title](%base_url%/image/mVerket.png){.snapshots}
 
-H1-H3: arial, sans-serif;
-Brödtext: arial, sans-serif; <br>
-Färgschema är Split-komplementärt <br>
-Anmärkningar: <br>
-Migrationsverkets webbplats val av färger och typsnitt ger ett intryck av auktoritet, tydlighet och pålitlighet, vilket passar väl en seriös myndighet som hanterar migration och asyl.
+##### Färgschema
 
-##### Färgschema till Migrationsverket hemsidda
 <table style="border-spacing: 8px; border-collapse: separate">
 <tr>
 <td style="height: 100px; border: 2px solid #f96e2a; width: 100px; background-color: #641018">
@@ -50,14 +44,23 @@ Migrationsverkets webbplats val av färger och typsnitt ger ett intryck av aukto
 </tr>
 </table>
 
-#### Polisen.se
+##### Anmärkningar
 
-H1-H3 Brödtext: "Open Sans Regular", arial,sans-serif; <br>
-Färgschema är Triadiskt <br>
-Anmärkningar: <br>
-Polisens webbplats använder starka och kontrasterande färger som ger ett intryck av trygghet, tydlighet och professionalism, vilket passar deras roll som en samhällsskyddande myndighet.
-##### Färgschema till Polisens hemsidda
-![Skatteverket Snapshot](../../../assets/img/sVerket.png)
+**H1-H3:** arial, sans-serif;
+
+**Brödtext:** arial, sans-serif;
+
+Färgschema är Split-komplementärt.
+
+**Anmärkningar:**
+
+Migrationsverkets webbplats val av färger och typsnitt ger ett intryck av auktoritet, tydlighet och pålitlighet, vilket passar väl en seriös myndighet som hanterar migration och asyl.
+
+### Polisen.se
+
+![Image Title](%base_url%/image/sVerket.png){.snapshots}
+
+##### Färgschema
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -71,15 +74,24 @@ Polisens webbplats använder starka och kontrasterande färger som ger ett intry
 </tr>
 </table>
 
-#### Skatteverket.se
+##### Anmärkningar
 
-![Polisen Snapshot](../../../assets/img/polisen.png)
-H1-H3: "Open Sans Regular", arial, "Bitstream Vera Sans", lucida, helvetica, sans-serif;
-Brödtext: Open Sans Regular, Verdana, sans-serif; <br>
-Färgschema är Analogt <br>
-Anmärkningar: <br>
-Skatteverkets webbplats val av färger och typsnitt är tydliga och professionella med gula och blå toner som signalerar pålitlighet och enkelhet, vilket passar väl deras roll som en viktig myndighet för medborgare.
-##### Färgschema till Skatteverkets hemsidda
+**H1-H3:** "Open Sans Regular", arial,sans-serif;
+
+**Brödtext:** "Open Sans Regular", arial,sans-serif;
+
+Färgschema är Triadiskt
+
+**Anmärkningar:**
+
+Polisens webbplats använder starka och kontrasterande färger som ger ett intryck av trygghet, tydlighet och professionalism, vilket passar deras roll som en samhällsskyddande myndighet.
+
+### Skatteverket.se
+
+![Image Title](%base_url%/image/polisen.png){.snapshots}
+
+##### Färgschema
+
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 100px; width: 100px; border: 2px solid #f96e2a; background: linear-gradient(180deg, #ffd93e 0%, #f7cc29 100%);">
@@ -93,6 +105,14 @@ Skatteverkets webbplats val av färger och typsnitt är tydliga och professionel
 <td style="height: 100px; border: 2px solid #f96e2a; width: 100px; background-color: #000000">
 </tr>
 </table>
+
+##### Anmärkningar
+
+**H1-H3:** "Open Sans Regular", arial, "Bitstream Vera Sans", lucida, helvetica, sans-serif;<br>
+**Brödtext:** Open Sans Regular, Verdana, sans-serif; <br>
+Färgschema är Analogt <br>
+**Anmärkningar:** <br>
+Skatteverkets webbplats val av färger och typsnitt är tydliga och professionella med gula och blå toner som signalerar pålitlighet och enkelhet, vilket passar väl deras roll som en viktig myndighet för medborgare.
 
 ## Analys
 
@@ -110,9 +130,6 @@ Skatteverket.se använder en palett som är starkt inspirerad av svenska flaggan
 <br>
 Sammanfattningsvis visar studien att färgscheman och typografi förstärker myndigheternas visuella identitet och kommunicerar deras värderingar och uppdrag på ett effektivt sätt. Genom att använda färger som är starkt kopplade till den svenska identiteten skapar de en känsla av förtroende och tillhörighet hos användarna.
 
-### Färgpallett som jag analyserar:
-
-
 ## Övrigt
-Författare: Hassan Hussain (hahi24)
 
+**Författare: Hassan Hussain (hahi24)**

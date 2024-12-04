@@ -1,4 +1,4 @@
-.landingpage {
+/* .landingpage {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: row;
@@ -60,7 +60,7 @@
 .box.wide-a {
   grid-column: span 3;
  grid-auto-rows: auto;
-}
+} */
 
 /* technology/sub/.md Layout */
 
@@ -136,3 +136,41 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
     }
 } */
+
+/** Gallery css  starts*/
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Stil för bilderna */
+.gallery img {
+  /* width: 100%;
+  height: auto; */
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: blueviolet;
+  padding: 10px;
+
+}
+
+.gallery img:hover {
+  background-color: greenyellow;
+  width: 260px;
+  height: 260px; 
+  /* oooor add styling transition */
+}

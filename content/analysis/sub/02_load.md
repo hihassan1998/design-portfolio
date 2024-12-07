@@ -12,19 +12,33 @@ Uppgiften handlar om att analysera laddningstids på tre svenska myndighetswebbp
 
 ***Välj ut 3 webbplatser som skall analyseras, berätta hur du gjorde urvalet.**
 
+
 I denna analyserings process har jag valt följande webbsidor:
 
 1. [Migrationsverket.se](https://www.migrationsverket.se/) - Migrationsverkets officiella hemsida.
-2. xxx.com
-3. yyy.com
+2. [Skatteverket.se](https://www.skatteverket.se/privat.4.76a43be412206334b89800052864.html) - Skatteverkets officiella hemsida.
+3. [Polisen.se](https://polisen.se/) - Polismyndighetens officiella hemsida.
+   Dessa webbplatser tillhör är Nationella myndigheters webbplatser och kan klassas i kategorin: Webbsidor till Statliga och offentliga tjänster i Sverige.
 
-## Method
-**Beskriv vilka verktyg du använde och hur du utförde arbetet för att samla in dina mätvärden. Det blir en kort beskrivning av din metod.**
+## Metod
+
+För att samla in data om webbplatsernas laddningstid, resurser och prestanda använde jag följande verktyg:
+
+1. **Google PageSpeed Insights**: För att mäta prestanda och tillgänglighet på både mobil och dator.
+2. **DevTools (Network-fliken)**: För att mäta laddningstiden, sidstorleken (i MB) och antalet resurser som laddades.
+3. **Google Sheets**: För att spara mätvärden och beräkna genomsnitt.
+
+### Så här genomfördes arbetet:
+- För varje webbplats valdes tre olika sidor att analysera.
+- Varje sida mättes tre gånger med både PageSpeed Insights och DevTools för att säkerställa noggrannhet.
+- Genomsnittet av de tre mätningarna dokumenterades i Excel-arket.
 
 ## Resultat
-**Skapa ett Excel-ark, till exempel Google Kalkylark, för att spara dina mätningar i. För allt du nu skall mäta, dokumentera det i Excel-arket. Länka till ditt Excel-ark så man ser rådatan.
+Mätvärdena för laddningstider, sidstorlek och antalet resurser dokumenterades i ett Google Sheet som kan ses här:
 
-Embedda din data i din analys. För att göra detta på Google Sheets trycker du på “File -> Publish to the web -> Embed”. Lägg en klass på din iframe och ändra bredden/höjden så det passar din analys.**
+[Se data i Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vRDZkSm0COb-Fwi1XPvcTVkIGueB-Lo1B72GfkmNtq7NrtHTOQLQGIHNR8qIUtMMhnwxMq0iZAI6nIt/pubhtml)
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRDZkSm0COb-Fwi1XPvcTVkIGueB-Lo1B72GfkmNtq7NrtHTOQLQGIHNR8qIUtMMhnwxMq0iZAI6nIt/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="600"></iframe>
 
 ## Analys
 

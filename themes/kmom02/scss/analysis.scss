@@ -11,12 +11,14 @@
   gap: 20px;
   padding: 20px;
 
+
   h1 {
     grid-row: 1;
     grid-column: span 3;
     color: #008080;
     justify-self: center;
   }
+
   @media (max-width: 767px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

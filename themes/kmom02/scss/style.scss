@@ -64,6 +64,7 @@ ul {
 
   h1 {
     color: $earthy-font;
+    font-size: 2em;
   }
 
   a,
@@ -94,6 +95,15 @@ h6 {
   color: $earthy-font;
 }
 
+// h1, h2, h3, h4, h5, h6 {
+//   margin-bottom: 0.6em;
+//   font-weight: bold;
+//   color: #f96e2a;
+//   font-family: fantasy;
+//   font-size: 4rem;
+//   line-height: 1.25;
+//   letter-spacing: 0.05em;
+// }
 p,
 td,
 th,

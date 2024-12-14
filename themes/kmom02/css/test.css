@@ -14,6 +14,7 @@
 /* text-shadow: 10px 5px 5px black; */
 /* text-shadow: 10px 5px 5px white;
 text-shadow: 1rem 1rem white; */
+
 h1,
 h2 {
   font-family: fantasy;
@@ -21,25 +22,27 @@ h2 {
   letter-spacing: 0.05em;
   line-height: 1.15em;
   word-break: break-word;
+  text-shadow: 1rem 1rem white;
 }
 
-h4,h5,h6{
-  color: #ff8c55 !important;
+.no-shadow {
+  text-shadow: none;
 }
-.links{
-  color: #ff8c55;}
+
 .header h1 {
   font-size: 2em !important;
   font-family: 'Lato', sans-serif;
   line-height: 0 !important;
 
 }
+
 /* implementing lines design element */
 .p1 {
   font-size: 3rem;
   line-height: 1em;
   letter-spacing: normal;
 }
+
 
 .p2 {
   font-size: 2.5rem;
@@ -52,6 +55,16 @@ h4,h5,h6{
   line-height: 1em;
   letter-spacing: normal;
 }
+
+.p1:hover {
+  color: #f35000;
+}
+.p2:hover {
+  color: #f35000;
+}
+.p3:hover {
+  color: #f35000;
+}
 /* implementing lines design element */
 
 .hero {
@@ -63,7 +76,10 @@ h4,h5,h6{
 .hero:hover {
   cursor: pointer;
   transform: translateY(-10px);
+  box-shadow: 1rem 1rem #f35000;
+
 }
+
 /* implementing lines design element */
 /* lines , scaleing, hierarchy */
 
@@ -71,10 +87,12 @@ h4,h5,h6{
   .image-section {
     display: none;
   }
-  .p1.p2.p3{
+
+  .p1.p2.p3 {
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
   }
+
   .main-home {
     padding: 25px !important;
   }

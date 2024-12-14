@@ -14,7 +14,8 @@
     padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
     color: #333;
 }
 
@@ -26,9 +27,9 @@
     color: #333 !important;
 }
 
-.nav ul li:nth-child(even) a {
-    color: #ff6347 !important;
-}
+/* .nav ul li:nth-child(even) a {
+    color: #772700;
+} */
 
 @media (max-width: 767px) {
     .header {

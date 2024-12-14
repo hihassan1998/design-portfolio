@@ -438,7 +438,6 @@ pre code {
 
 /* Sidebar */
 .subpage-sidebar {
-  background: #c9e6f0;
   padding: 15px;
   border-radius: 8px;
 }
@@ -467,7 +466,7 @@ pre code {
   .subpage-sidebar {
     grid-row: 1;
     grid-column: span 2;
-    background: #cedf9f !important;
+    background: #fff !important;
     padding: 15px;
     border-radius: 8px;
     max-width: none;
@@ -707,12 +706,17 @@ ul {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #cedf9f;
+  background-color: #c9e6f0;
 }
 .header h1,
 .site-header h1 {
   color: #f35000;
   font-size: 2em;
+  text-shadow: none;
+}
+.header a,
+.site-header a {
+  color: #772700;
 }
 .header a,
 .header p,
@@ -744,6 +748,16 @@ h6 {
   word-break: break;
 }
 
+h1,
+h2 {
+  font-family: fantasy;
+  font-size: 5rem !important;
+  letter-spacing: 0.05em;
+  line-height: 1.15em;
+  word-break: break-word;
+  text-shadow: 1rem 1rem #fff;
+}
+
 p,
 td,
 th,
@@ -771,7 +785,7 @@ img {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
-  background-color: #c9e6f0;
+  background-color: #cedf9f;
   align-items: center;
   flex-direction: column-reverse;
   text-align: center;
@@ -829,7 +843,7 @@ img {
 }
 
 .nav ul li:nth-child(even) a {
-  color: #f35000 !important;
+  color: #772700;
 }
 
 @media (max-width: 767px) {
@@ -874,6 +888,16 @@ img {
     padding: 5px;
   }
 }
+h4,
+h5,
+h6 {
+  color: #854900 !important;
+}
+
+.links {
+  color: rgb(0, 0, 255);
+}
+
 .active {
   border: 2px dotted #f35000;
   background-color: #fbf8ef;

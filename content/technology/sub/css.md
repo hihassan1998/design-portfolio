@@ -15,5 +15,5 @@ p {
 }
 ```
 
-Get back to<a href="%base_url%?technology"> Technologies</a>
+Get back to<a style="color: blue;" href="%base_url%?technology"> Technologies</a>
 

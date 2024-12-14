@@ -68,6 +68,10 @@ ul {
     color: $earthy-font;
   }
 
+  a {
+    color: #772700;
+  }
+
   a,
   p {
     text-decoration: none;
@@ -188,11 +192,11 @@ img {
 }
 
 .nav ul li:nth-child(odd) a {
-  color: #33c1c9 !important;
+  color: #fff !important;
 }
 
 .nav ul li:nth-child(even) a {
-  color: $earthy-font !important;
+  color: #ff8c55;
 }
 
 @media (max-width: 767px) {
@@ -247,7 +251,7 @@ img {
 
 .active {
   border: 2px dotted $earthy-font;
-  background-color: #fbf8ef;
+  background-color: $background-color-d;
   padding: 5px;
   border-radius: 5px;
 }
@@ -297,6 +301,17 @@ pre {
   }
 }
 
+
+h4,
+h5,
+h6 {
+  color: #ff8c55 !important;
+}
+
+
+.links {
+  color: #ff8c55;
+}
 
 // dark-theame colored classes higher in hierarchy from analyisis.scss starts here
 .box-a {

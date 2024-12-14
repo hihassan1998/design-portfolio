@@ -108,7 +108,7 @@
 /* Sidebar */
 .subpage-sidebar {
   // max-width: 250px;
-  background: $footer-bg-color;
+  // background: $footer-bg-color;
   padding: 15px;
   border-radius: 8px;
 
@@ -141,7 +141,7 @@
   .subpage-sidebar {
     grid-row: 1;
     grid-column: span 2;
-    background: $header-bg-color !important;
+    background: #fff !important;
     padding: 15px;
     border-radius: 8px;
     max-width: none;

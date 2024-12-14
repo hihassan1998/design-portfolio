@@ -60,11 +60,17 @@ ul {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: $header-bg-color; // Imported variable
+  // background-color: $header-bg-color; // Imported variable
+  background-color: $footer-bg-color; // Imported variable
 
   h1 {
     color: $earthy-font;
     font-size: 2em;
+    text-shadow: none;
+  }
+
+  a {
+    color: #772700;
   }
 
   a,
@@ -96,6 +102,17 @@ h6 {
   word-break: break;
 }
 
+h1,
+h2 {
+  font-family: fantasy;
+  font-size: 5rem !important;
+  letter-spacing: 0.05em;
+  line-height: 1.15em;
+  word-break: break-word;
+  text-shadow: 1rem 1rem #fff;
+}
+
+
 
 p,
 td,
@@ -126,7 +143,8 @@ img {
   justify-content: space-between;
 
   border-top: 1px solid #222;
-  background-color: $footer-bg-color; // Imported variable
+  // background-color: $footer-bg-color; // Imported variable
+  background-color: $header-bg-color; // Imported variable
 
   align-items: center;
   flex-direction: column-reverse;
@@ -188,8 +206,7 @@ img {
 }
 
 .nav ul li:nth-child(even) a {
-  // color: #ff6347 !important;
-  color: $earthy-font !important;
+  color: #772700;
 }
 
 @media (max-width: 767px) {
@@ -240,6 +257,16 @@ img {
     background-color: $background-color;
     padding: 5px;
   }
+}
+
+h4,
+h5,
+h6 {
+  color: #854900 !important;
+}
+
+.links {
+  color: rgb(0, 0, 255);
 }
 
 .active {

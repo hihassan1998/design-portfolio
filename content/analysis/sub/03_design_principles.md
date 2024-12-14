@@ -154,7 +154,7 @@ Slutligen, efter denna analys har jag lärt mig mycket och det har fått mig att
 
 ## Referenser
 
-- Canva. (n.d.). Design elements & principles. Hämtad från [https://www.canva.com/learn/design-elements-principles/](https://www.canva.com/learn/design-elements-principles/)
+- Canva. (n.d.). Design elements & principles. Hämtad från [https://www.canva.com/learn/design-elements-principles/](https://www.canva.com/learn/design-elements-principles/){.links}
 
 ## Övrigt
 

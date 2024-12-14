@@ -92,18 +92,11 @@ h6 {
   margin-bottom: 0.6em;
   margin-top: 0.6em;
   font-weight: bold;
-  color: $earthy-font;
+  color: $earthy-font !important;
+  word-break: break;
 }
 
-// h1, h2, h3, h4, h5, h6 {
-//   margin-bottom: 0.6em;
-//   font-weight: bold;
-//   color: #f96e2a;
-//   font-family: fantasy;
-//   font-size: 4rem;
-//   line-height: 1.25;
-//   letter-spacing: 0.05em;
-// }
+
 p,
 td,
 th,
@@ -195,7 +188,8 @@ img {
 }
 
 .nav ul li:nth-child(even) a {
-  color: #ff6347 !important;
+  // color: #ff6347 !important;
+  color: $earthy-font !important;
 }
 
 @media (max-width: 767px) {
@@ -276,6 +270,22 @@ img {
   @media (max-width: 767px) {
     .snapshots {
       height: 150px;
+    }
+
+    .box-a {
+      a {
+        color: #000;
+      }
+    }
+
+    .box a {
+      color: #000 !important;
+    }
+
+    .box {
+      &:nth-child(3n) {
+        background-color: #ff9664 !important;
+      }
     }
   }
 }

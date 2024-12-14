@@ -65,7 +65,7 @@ ul {
   background-color: $header-bg-color-d; // Imported variable
 
   h1 {
-    color: $earthy-font-d;
+    color: $earthy-font;
   }
 
   a,
@@ -97,7 +97,7 @@ h6 {
   margin-bottom: 0.6em;
   margin-top: 0.6em;
   font-weight: bold;
-  color: $earthy-font-d;
+  color: $earthy-font;
 }
 
 p,
@@ -142,7 +142,7 @@ img {
   }
 
   .fa:hover {
-    color: $earthy-font-d;
+    color: $earthy-font;
     cursor: pointer;
   }
 }
@@ -192,7 +192,7 @@ img {
 }
 
 .nav ul li:nth-child(even) a {
-  color: #ff6347 !important;
+  color: $earthy-font !important;
 }
 
 @media (max-width: 767px) {
@@ -215,7 +215,7 @@ img {
     display: block;
     padding: 0.5em 0;
 
-    border: 2px solid $earthy-font-d;
+    border: 2px solid $earthy-font;
     border-radius: 15px;
     margin-bottom: 15px;
     background-color: $background-color-d;
@@ -247,7 +247,7 @@ img {
 
 .active {
   border: 2px dotted $earthy-font;
-  background-color: $background-color-d;
+  background-color: #fbf8ef;
   padding: 5px;
   border-radius: 5px;
 }
@@ -303,6 +303,15 @@ pre {
   color: $font-color;
 }
 
+.box a {
+  color: #000;
+}
+
+.subpage-sidebar li a {
+  text-decoration: none;
+  color: #000;
+}
+
 // dark-theame colored classes higher in hierarchy from analyisis.scss ends here
 
 article {
@@ -313,6 +322,6 @@ article {
 
 aside {
   li:active {
-    background-color: $font-color-d;
+    background-color: #fbf8ef;
   }
 }

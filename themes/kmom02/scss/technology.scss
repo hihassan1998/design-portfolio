@@ -48,10 +48,6 @@
     background-color: $footer-bg-color;
   }
 
-  &:nth-child(3n) {
-    background-color: $earthy-font;
-  }
-
   &-1 {
     grid-column: span 2;
     grid-row: 2;
@@ -112,7 +108,7 @@
 /* Sidebar */
 .subpage-sidebar {
   // max-width: 250px;
-  background: #a6d7eb;
+  background: $footer-bg-color;
   padding: 15px;
   border-radius: 8px;
 
@@ -145,7 +141,7 @@
   .subpage-sidebar {
     grid-row: 1;
     grid-column: span 2;
-    background: #a6d7eb;
+    background: $header-bg-color !important;
     padding: 15px;
     border-radius: 8px;
     max-width: none;

@@ -4,20 +4,30 @@
 /** Link to file:
  <link rel="stylesheet" href="{{ theme_url }}/css/test.css" type="text/css" /> */
 
-main {
-  background-color: red;
+.main-home {
+  padding: 85px;
+  /* background-color: red; */
 }
 
 
-/* Container setup */
+/** darker earthy-orange color for contrast = #f35000 */
+/* text-shadow: 10px 5px 5px black; */
+/* text-shadow: 10px 5px 5px white;
+text-shadow: 1rem 1rem white; */
 h1,
 h2 {
   font-family: fantasy;
   font-size: 5rem !important;
   letter-spacing: 0.05em;
   line-height: 1.15em;
+  word-break: break-word;
 }
 
+h4,h5,h6{
+  color: #ff8c55 !important;
+}
+.links{
+  color: #ff8c55;}
 .header h1 {
   font-size: 2em !important;
   font-family: 'Lato', sans-serif;
@@ -64,6 +74,9 @@ h2 {
   .p1.p2.p3{
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
+  }
+  .main-home {
+    padding: 25px !important;
   }
 
   /* .hero {

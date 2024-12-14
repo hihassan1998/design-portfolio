@@ -348,7 +348,7 @@ pre code {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: row;
-  border: 1px dotted #f96e2a;
+  border: 1px dotted #f35000;
   gap: 20px;
   padding: 20px;
 }
@@ -384,9 +384,6 @@ pre code {
 }
 .box:nth-child(3n+2) {
   background-color: #c9e6f0;
-}
-.box:nth-child(3n) {
-  background-color: #f96e2a;
 }
 .box-1 {
   grid-column: span 2;
@@ -424,7 +421,7 @@ pre code {
   grid-template-columns: 20% auto;
   grid-auto-flow: row;
   grid-auto-flow: column;
-  border: 1px dotted #f96e2a;
+  border: 1px dotted #f35000;
   gap: 20px;
   padding: 20px;
   overflow-wrap: break-word;
@@ -440,7 +437,7 @@ pre code {
 
 /* Sidebar */
 .subpage-sidebar {
-  background: #a6d7eb;
+  background: #c9e6f0;
   padding: 15px;
   border-radius: 8px;
 }
@@ -462,14 +459,14 @@ pre code {
     justify-items: center;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-flow: column;
-    border: 1px dotted #f96e2a;
+    border: 1px dotted #f35000;
     gap: 20px;
     padding: 20px;
   }
   .subpage-sidebar {
     grid-row: 1;
     grid-column: span 2;
-    background: #a6d7eb;
+    background: #cedf9f !important;
     padding: 15px;
     border-radius: 8px;
     max-width: none;
@@ -488,14 +485,14 @@ pre code {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: row;
-  border: 1px dotted #f96e2a;
+  border: 1px dotted #f35000;
   gap: 20px;
   padding: 20px;
 }
 .landingpage h1 {
   grid-row: 1;
   grid-column: span 3;
-  color: #008080;
+  color: #f35000;
   justify-self: center;
 }
 @media (max-width: 767px) {
@@ -517,13 +514,10 @@ pre code {
   color: #000;
 }
 .box-a:nth-child(3n+1) {
-  background-color: #00796b;
+  background-color: #f35000;
 }
 .box-a:nth-child(3n+2) {
   background-color: #81d4fa;
-}
-.box-a:nth-child(3n) {
-  background-color: #f96e2a;
 }
 .box-a-1a {
   grid-column: span 3;
@@ -545,6 +539,9 @@ pre code {
   grid-row: 8;
   text-align: center;
 }
+.box-a a {
+  color: #000;
+}
 
 /* technology sub pages.md Layout */
 .subpage-layout {
@@ -552,7 +549,7 @@ pre code {
   grid-template-columns: 20% auto;
   grid-auto-flow: row;
   grid-auto-flow: column;
-  border: 1px dotted #f96e2a;
+  border: 1px dotted #f35000;
   gap: 20px;
   padding: 20px;
   overflow-wrap: break-word;
@@ -568,7 +565,7 @@ pre code {
 
 /* Sidebar */
 .subpage-sidebar {
-  background: #a6d7eb;
+  background: #cedf9f;
   padding: 15px;
   border-radius: 8px;
 }
@@ -590,14 +587,13 @@ pre code {
     justify-items: center;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-flow: column;
-    border: 1px dotted #f96e2a;
+    border: 1px dotted #f35000;
     gap: 20px;
     padding: 20px;
   }
   .subpage-sidebar {
     grid-row: 1;
     grid-column: span 2;
-    background: #a6d7eb;
     padding: 15px;
     border-radius: 8px;
     max-width: none;
@@ -668,7 +664,7 @@ ul {
 }
 .header h1,
 .site-header h1 {
-  color: #f96e2a;
+  color: #f35000;
 }
 .header a,
 .header p,
@@ -678,7 +674,7 @@ ul {
 }
 
 a {
-  color: #00796b;
+  color: #f35000;
 }
 
 /* Title */
@@ -700,7 +696,7 @@ h6 {
   margin-bottom: 0.6em;
   margin-top: 0.6em;
   font-weight: bold;
-  color: #f96e2a;
+  color: #f35000;
 }
 
 p,
@@ -740,7 +736,7 @@ img {
   padding: 0 20px;
 }
 .footer .fa:hover {
-  color: #f96e2a;
+  color: #f35000;
   cursor: pointer;
 }
 
@@ -788,7 +784,7 @@ img {
 }
 
 .nav ul li:nth-child(even) a {
-  color: #ff6347 !important;
+  color: #f35000 !important;
 }
 
 @media (max-width: 767px) {
@@ -807,7 +803,7 @@ img {
   .nav ul li a {
     display: block;
     padding: 0.5em 0;
-    border: 2px solid #f96e2a;
+    border: 2px solid #f35000;
     border-radius: 15px;
     margin-bottom: 15px;
     background-color: #3a3a3a;
@@ -826,7 +822,7 @@ img {
     line-height: 2em;
     text-align: center;
     cursor: pointer;
-    border: 2px solid #f96e2a;
+    border: 2px solid #f35000;
     border-radius: 15px;
     margin-bottom: 15px;
     background-color: #3a3a3a;
@@ -834,8 +830,8 @@ img {
   }
 }
 .active {
-  border: 2px dotted #f96e2a;
-  background-color: #3a3a3a;
+  border: 2px dotted #f35000;
+  background-color: #fbf8ef;
   padding: 5px;
   border-radius: 5px;
 }
@@ -885,10 +881,19 @@ pre {
   color: #000;
 }
 
+.box a {
+  color: #000;
+}
+
+.subpage-sidebar li a {
+  text-decoration: none;
+  color: #000;
+}
+
 article p {
   color: #000;
 }
 
 aside li:active {
-  background-color: #e0e0e0;
+  background-color: #fbf8ef;
 }

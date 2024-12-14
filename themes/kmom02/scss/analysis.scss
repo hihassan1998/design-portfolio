@@ -15,7 +15,7 @@
   h1 {
     grid-row: 1;
     grid-column: span 3;
-    color: #008080;
+    color: $earthy-font;
     justify-self: center;
   }
 
@@ -45,10 +45,6 @@
     background-color: $background-alternative-color-d;
   }
 
-  &:nth-child(3n) {
-    background-color: $earthy-font-d;
-  }
-
   &-1a {
     grid-column: span 3;
     grid-row: 2;
@@ -75,6 +71,10 @@
     text-align: center;
 
   }
+
+  a {
+    color: #000;
+  }
 }
 
 /* technology sub pages.md Layout */
@@ -100,7 +100,7 @@
 /* Sidebar */
 .subpage-sidebar {
   // max-width: 250px;
-  background: #a6d7eb;
+  background: $header-bg-color;
   padding: 15px;
   border-radius: 8px;
 
@@ -133,7 +133,6 @@
   .subpage-sidebar {
     grid-row: 1;
     grid-column: span 2;
-    background: #a6d7eb;
     padding: 15px;
     border-radius: 8px;
     max-width: none;

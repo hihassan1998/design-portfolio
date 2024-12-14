@@ -12,11 +12,11 @@ Uppgiften handlar om att analysera designprinciper som används på ett antal we
 I denna analyserings process har jag valt följande webbsidor:
 <br>
 
-1. [https://www.gayle.com/](https://www.gayle.com/) - Gayle Laakmann McDowells officiella hemsida.
-2. [https://chriscoyier.net/](https://chriscoyier.net/) - Chris Coyiers officiella hemsida.
-3. [https://johnresig.com/](https://johnresig.com/) -
+1. [https://www.gayle.com/](https://www.gayle.com/){.links} - Gayle Laakmann McDowells officiella hemsida.
+2. [https://chriscoyier.net/](https://chriscoyier.net/){.links} - Chris Coyiers officiella hemsida.
+3. [https://johnresig.com/](https://johnresig.com/){.links} -
    John Resigs officiella hemsida.
-4. [https://www.student.bth.se/~hahi24/dbwebb-kurser/design/me/portfolio/](https://www.student.bth.se/~hahi24/dbwebb-kurser/design/me/portfolio/) - Min egen portfolio-webbplats.
+4. [https://www.student.bth.se/~hahi24/dbwebb-kurser/design/me/portfolio/](https://www.student.bth.se/~hahi24/dbwebb-kurser/design/me/portfolio/){.links} - Min egen portfolio-webbplats.
    <br>
    <br>
    Dessa webbplatser är personliga sidor som representerar yrkesmässiga profiler och används för att dela kunskap, erfarenheter och resurser inom respektive område. Webbplatserna valdes eftersom de representerar olika discipliner inom teknik och webbdesign, vilket ger en intressant variation för att analysera designprinciper.
@@ -27,11 +27,11 @@ I denna analys har jag använt designelement och designprinciper definierade i C
 
 ## Resultat
 
-#### Webbplats 1: Gayle Laakmann McDowell
+### Webbplats 1: Gayle Laakmann McDowell
 
 ![Image Title](%base_url%/image/gayle.png){.snapshots}
 
-##### Färgschema
+#### Färgschema
 
 <table style="border-spacing: 8px; border-collapse: separate">
 <tr>
@@ -58,11 +58,11 @@ I denna analys har jag använt designelement och designprinciper definierade i C
 **Framsida och undersidor:** Liknande struktur och design, vilket bidrar till en konsekvent användarupplevelse.
 <br>
 
-#### Webbplats 2: Chris Coyiers
+### Webbplats 2: Chris Coyiers
 
 ![Image Title](%base_url%/image/chris.png){.snapshots}
 
-##### Färgschema
+#### Färgschema
 
 <table style="border-spacing: 8px; border-collapse: separate">
 <tr>
@@ -83,11 +83,11 @@ I denna analys har jag använt designelement och designprinciper definierade i C
 
 **Framsida och undersidor:** Stilen varierar något mellan sidorna men är konsekvent nog för att bibehålla användarens fokus.
 
-#### Webbplats 3: John Resigs
+### Webbplats 3: John Resigs
 
 ![Image Title](%base_url%/image/john.png){.snapshots}
 
-##### Färgschema
+#### Färgschema
 
 <table style="border-spacing: 8px; border-collapse: separate">
 <tr>
@@ -108,11 +108,11 @@ I denna analys har jag använt designelement och designprinciper definierade i C
 
 **Framsida och undersidor:** : Följer samma designprinciper, vilket stärker sidans användbarhet.
 
-#### Webbplats 4: Hassan Hussains Portfölj
+### Webbplats 4: Hassan Hussains Portfölj
 
 ![Image Title](%base_url%/image/hassanP.png){.snapshots}
 
-##### Färgschema
+#### Färgschema
 
 <table style="border-spacing: 8px; border-collapse: separate">
 <tr>
